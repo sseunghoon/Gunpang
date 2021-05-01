@@ -1,20 +1,18 @@
+1. service mysql start / service mysql stop
 mysql 서버 시작/종료 명령어
-service mysql start
-service mysql stop
 
+2. mysql -u root -p
 mysql 접속
-mysql -u root -p
 
-mysql database 접속
-use mysql;
-
-해당 사용자에 대한 모든 접속을 허용
+[mysql을 원격 접속 허용하기]
+use mysql; 
+=>database 접속
 GRANT ALL PRIVILEGES ON *.* to '사용자 계정'@'%' IDENTIFIED BY '비밀번호';
-
-변경 사항 즉시 반영
+=>해당 사용자에 대한 모든 접속을 허용
 flush privileges;
+=>변경 사항 즉시 반영
 
-pip install mysqlclient 오류 시
+[pip install mysqlclient 오류 시]
 
 $ sudo apt-get install libssl-dev
 $ sudo apt-get install mysql-server
