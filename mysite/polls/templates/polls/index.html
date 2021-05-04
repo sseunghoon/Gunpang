@@ -1,17 +1,27 @@
-{% load static %}
+{% extends 'polls/base.html' %}
 
-<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+{% block content %}
 
-{% if latest_question_list %}
-    <ul>
-    {% for question in latest_question_list %}        
-        <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
-        
-        <!-- 아래 방식으로 코딩하면 수 많은 템플릿을 가진 프로젝트들의 URL을 일일이 바꿔줘야 한다.
-        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li> -->
-        
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No polls are available.</p>
-{% endif %}
+<div class="row column text-center">    
+    <div class="row">
+         <div class="small-12 medium-3 columns">
+           <img src="/static/img/fff.png"/>
+         </div>
+        <br>
+         <div class="small-12 medium-9 columns">
+          <div class="hero-slider-slide-content">
+            <h3>군생활 당도 측정기</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo consectetur arcu ut aliquam. Nullam rhoncus tellus dolor, eu mollis libero suscipit at. Mauris imperdiet aliquam consectetur. Curabitur ac massa dapibus, viverra neque eu, lacinia nisi.</p>
+            <div>
+              <button class="hollow button" type="button"><img src="https://placehold.it/20x20"/> 측정 시작하기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+{% endblock %}
+
+

@@ -1,3 +1,2 @@
-# Django Tutorial
+# Gunpang 비즈니스 개요
 
-https://docs.djangoproject.com/ko/3.2/intro/tutorial01/

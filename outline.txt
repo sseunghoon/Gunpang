@@ -1,0 +1,18 @@
+backend : django
+
+database : mysql
+
+css flamework : foundation
+
+귀찮으니까 새로 만들지 않고 이 컨테이너 사용
+
+1. Django 구조 참고
+https://github.com/justdjango/django-simple-ecommerce
+https://github.com/justdjango/django-ecommerce
+
+2. Foundation framework document
+https://get.foundation/building-blocks/
+==>block 복붙하면 개꿀?
+
+3. foundation template
+다운받아놈 ecommerce.html
