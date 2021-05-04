@@ -1,3 +1,5 @@
+project : 군생활 당도 측정기
+
 backend : django
 
 database : mysql
@@ -9,6 +11,11 @@ css flamework : foundation
 1. Django 구조 참고
 https://github.com/justdjango/django-simple-ecommerce
 https://github.com/justdjango/django-ecommerce
+https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Tutorial_local_library_website
+crud 게시판
+https://programmer-algorithm.tistory.com/60
+djangogirls 한국어
+https://tutorial.djangogirls.org/ko/template_extending/
 
 2. Foundation framework document
 https://get.foundation/building-blocks/
@@ -16,3 +23,20 @@ https://get.foundation/building-blocks/
 
 3. foundation template
 다운받아놈 ecommerce.html
+
+4. pc/mobile 구분짓지 말고 그냥 css에서 media로 구분하기
+
+5. 피드백 블록
+https://get.foundation/building-blocks/blocks/status-update-input-box.html
+https://get.foundation/building-blocks/blocks/contact-panel.html
+
+6. 측정 결과 블록
+https://get.foundation/building-blocks/blocks/stats-list.html
+
+7. 결과창 댓글
+https://get.foundation/building-blocks/blocks/comment-section.html
+
+8. 결과창 백분위 원 그래프
+https://get.foundation/building-blocks/blocks/circle-graph.html
+
+
