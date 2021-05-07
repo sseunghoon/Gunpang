@@ -24,9 +24,10 @@
   background-size: cover;
 }
 
-header {
-    display:none;
+#header{
+    display:none !important;
 }
 
-
-
+.answer{
+    background-color:#000000;
+}
